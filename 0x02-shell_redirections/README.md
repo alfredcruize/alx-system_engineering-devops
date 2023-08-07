@@ -1,1 +1,1 @@
-0x02 Shell redirections
+0x02 Shell redirect
