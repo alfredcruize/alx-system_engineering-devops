@@ -1,0 +1,2 @@
+#!/binn/bash
+find . -empty -printf "%P\n"
