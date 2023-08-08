@@ -1,2 +1,2 @@
-#!/binn/bash
-find . -empty -printf "%P\n"
+#!/bin/bash
+find . -type f -empty -printf "%f\n" ; find . -type d -empty -printf "%f\n"
