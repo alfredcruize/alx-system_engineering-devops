@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water; $WATER" | bc | awk '{water=$1} END {getline; stir=$1} END {print "obase=bestchol;" water + stir}' | bc
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f
