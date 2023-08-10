@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 alx-system_engineering-devops/0x02-shell_redirections/102-acrostic
+cut -c1 | paste -s | tr -d "[:blank:]"
